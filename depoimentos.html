@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto de Luz - Elen Brito </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        @media (max-width: 768px) {
+            .image-container {
+                display: flex;
+                flex-direction: column; /* Empilha as imagens verticalmente */
+                align-items: center; /* Centraliza as imagens */
+                gap: 20px; /* Adiciona espaçamento entre as imagens */
+            }
+
+            .image-container img {
+                width: 90% !important; /* Garante que as imagens fiquem responsivas */
+                height: auto;
+            }
+        }
+
+
+        .nome {
+            font-size: 2rem;
+            color: #468966;
+            font-weight: 600;
+        }
+
+        .nav-item {
+            font-size: 1.4rem;
+        }
+
+        .ancoraRodape {
+            padding: 3%;
+        }
+
+        .copyTermos {
+            margin-top: 2%;
+            display: flex;
+            gap: 70%;
+        }
+
+        #termosEcondicoes {
+            margin-left: 3%;
+        }
+
+        span {
+            color: #468966;
+            font-weight: 600;
+        }
+
+        .autoconhecimento {
+            color: #F9D923;
+        }
+
+        #email {
+            font-size: 1.5rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #1EB2A6;
+        }
+
+        #texto-index {
+            font-size: 1.5rem;
+            font-weight: 400;
+            text-align: justify;
+        }
+
+        .card-img-top {
+            height: auto;
+            width: 100%;
+        }
+
+        main {
+  display: flex;
+  flex-direction: column; /* Organiza o texto e as imagens em coluna */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+  margin-bottom: 30px; /* Ajuste o espaçamento entre o texto e as imagens */
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.image-container img {
+  width: calc(33.33% - 13.33px);
+  height: auto;
+  transition: transform 0.3s ease, border 0.3s ease; /* Transição para o efeito de aumento e a borda */
+}
+
+.image-container img:hover {
+  transform: scale(1.1); /* Aumenta a imagem 10% */
+  border: 3px solid black; /* Adiciona uma borda preta */
+}
+
+.titulo {
+    margin-top: 4%;
+    text-decoration: underline;
+}
+
+.subtitulo{
+    margin-top: 1%;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+.lead {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container intro">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+                <span class="nome" class="fs-4">Elen Brito - Terapeuta holística </span></a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="videos.html" class="nav-link">Videos </a></li>
+                <li class="nav-item"><a href="consultas.html" class="nav-link">Informações e Consultas</a></li>
+                <li class="nav-item"><a href="meditacao.html" class="nav-link">Programas de Meditação</a></li>
+                    
+            </ul>
+        </header>
+    </div>
+        <main role="main">
+            <section class="jumbotron text-center">
+              <div class="container">
+                <h1 class="jumbotron-heading"> Meditação: pequenos hábitos, grandes conquistas.</h1>
+                <p class="lead text-muted depoimento"> Depoimentos da primeira edição.
+            </div>
+            </section>
+            <div class="image-container">
+                <img src="./IMAGENS/depoimento-ana-lopes.jpg" alt="Imagem 1">
+                <img src="./IMAGENS/depoimento-luisa-borges.jpg" alt="Imagem 7">
+                <img src="./IMAGENS/depoimento-monica-tranzillo.jpg" alt="Imagem 2">
+                <img src="./IMAGENS/depoimento-paula-mafa.jpg" alt="Imagem 3">
+            </div>
+        </main>
+
+        <footer>
+            <div class="aRodape container">
+                <a class="ancoraRodape" href="https://www.youtube.com/@ElenPontodeLuz" aria-label="Visite nosso canal no YouTube">
+                    <img src="./IMAGENS/youtube.svg" height="40px" alt="Ícone do YouTube, link para o canal de Elen Brito">
+                </a>
+                <a class="ancoraRodape" href="https://www.instagram.com/elenbrito.terapeuta/" aria-label="Siga Elen Brito no Instagram">
+                    <img src="./IMAGENS/instagram (1).svg" height="40px" alt="Ícone do Instagram, link para o perfil de Elen Brito">
+                </a>
+                <a class="ancoraRodape" href="https://www.facebook.com/elen.britto.7" aria-label="Siga Elen Brito no Facebook">
+                    <img src="./IMAGENS/facebook.svg" height="40px" alt="Ícone do Facebook, link para o perfil de Elen Brito">
+                </a>
+                <a class="ancoraRodape" href="https://wa.me/351916943371" target="_blank" aria-label="Entre em contato com Elen Brito pelo WhatsApp">
+                    <img src="./IMAGENS/whatsapp.svg" height="40px" alt="Ícone do WhatsApp, link para o contato com Elen Brito">
+                </a>
+             
+                <div class="copyTermos">
+                    <a id="termosEcondicoes" href="termoseCondicoes.html">
+                        <span class="tcond"> Termos e Condições </span>
+                    </a>
+                    <p class="copyRight"> &#169; Copyright 2024</p>
+                </div>
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                                        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                                        crossorigin="anonymous"></script>
+</body>
+
+</html>
